@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.sunova {
+    font-size: 30px;
+    font-family: 'Anuphan', sans-serif;
+    color: orangered !important;
+}
+
+.text-color {
+    color: orangered;
+}
+
+.text-small {
+    font-size: 14px !important;
+}
+
+.navlist li a:hover {
+    color: orangered !important;
+}
+
+.border {
+    border: 1px solid black !important;
+    border-radius: 0px !important;
+}
+
+.border:hover {
+    color: orangered;
+}
+
+
+.section1 {
+    background-image: url('./images/bg-1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 690px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 999;
+    background-size: cover;
+
+}
+
+.solar-image {
+    background-color: black;
+    opacity: 0.35;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.hassle {
+    line-height: 1.2;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.latest-selection {
+    line-height: 1.2;
+    color: white;
+    font-weight: normal;
+    position: relative;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.solar-power {
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: white;
+    font-weight: normal;
+    position: relative;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.solar-para {
+    color: white;
+    position: relative;
+}
+
+.bg-orange {
+    background-color: orangered;
+    position: relative;
+}
+
+.bg-orange:hover {
+    background-color: orangered;
+
+}
+
+.text-color {
+    color: orangered;
+}
+
+.background-white {
+    background-color: rgb(255, 255, 255) !important;
+    opacity: 0.88;
+}
+
+.bg_black {
+    background-color: #131212f0;
+}
+
+.section2 {
+    width: 100%;
+
+}
+
+
+.text_uppercase {
+    text-transform: uppercase;
+
+}
+
+.text_bold {
+
+    font-weight: 600;
+}
+
+.border_bottom {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid orangered;
+    width: 35%;
+    top: 114px;
+    left: 0px;
+}
+
+.font {
+    font-family: 'Anuphan', sans-serif;
+}
+
+.bg-2 {
+    background-image: url('./images/bg-2.jpg');
+    width: 100%;
+    background-size: contain;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.padding_top {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.text_bottom {
+    align-items: end;
+}
+
+.section4 {
+    width: 100%;
+    height: 950px;
+    margin-bottom: 50px;
+
+
+}
+
+.border-bottom {
+    width: 60%;
+}
+
+.position-relative {
+    position: relative;
+
+}
+
+.position-absolute {
+    position: absolute;
+    bottom: -230px;
+    z-index: 999;
+}
+
+.width_50 {
+    width: 50%;
+}
+
+.section5 {
+    width: 100%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.section5 {
+    width: 100%;
+}
+
+.border_right {
+    border-right: 6px solid orangered;
+}
+
+.step2 {
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.step2 p {
+    margin-bottom: 0px !important;
+}
+
+.description2 h1 {
+    text-transform: capitalize;
+
+}
+
+.description2 h1::after {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #e3d4d48c;
+    top: 113px;
+    width: 100%;
+    left: 0px;
+}
+
+.orange_border {
+    border-bottom: 4px solid orangered;
+}
+
+hr {
+    margin: 0px !important;
+}
+
+.bg-gray {
+    padding: 5px 15px;
+    background-color: #7772728c;
+    border-radius: 50%;
+    color: white;
+}
+
+.circle {
+    padding: 5px 15px;
+    border-radius: 50%;
+    color: white;
+}
+
+.section7 {
+    width: 100%;
+}
+
+.section8 {
+    width: 100%;
+}
+
+
+.list_item li {
+    list-style:circle !important;
+  color: orangered;
+
+}
+.position_absolute{
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+}
+.bg-white h2{
+    text-transform: capitalize;
+}
+.section9{
+    width: 100%;
+}
+.text_end{
+     width: 45%;
+    position: absolute;
+    bottom: 0px !important;
+}
+.border-none{
+    border-radius: 0px !important;
+    border: 1px solid orangered;
+}
+.btn_secondary{
+    border: 1px solid rgb(58, 56, 56);
+    border-radius: 0px ;
+}
+.btn_secondary:hover{
+    border: 1px solid rgb(58, 56, 56);
+    color: orangered;
+}
+.button_proposal{
+    border:  none;
+}
+.bottom_border::after{
+    content: '';
+    position: absolute;
+    background-color: orangered;
+    height: 1px;
+    width: 20%;
+    bottom: -23px;
+    right: 449px;
+}
+.section10{
+    width: 100%;
+}
+
+.blog1_para,.blog2_para,.blog3_para{
+    background-color: #ffffffe8;
+    position: absolute;
+    bottom: 50px;
+    margin: 0px 10px;
+}
+.blog1_para h5 ,.blog2_para h5 ,.blog3_para h5{
+    text-transform: uppercase;
+   margin: 10px 10px;
+   font-family: 'Anuphan', sans-serif;
+   font-weight: bold;
+}
+.blog1_para p{
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    font-size: 12px !important;
+    text-transform: capitalize;
+}
+.blog2_para p{
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    font-size: 12px !important;
+    text-transform: capitalize;
+}
+.blog3_para p{
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    font-size: 12px !important;
+    text-transform: capitalize;
+}
+.blog1_img img , .blog2_img img , .blog3_img img {
+    width: 100% !important;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.footer_head h1{
+    color: rgb(209, 200, 200);
+    font-family: 'Anuphan', sans-serif;
+    letter-spacing: 10px;
+}
+.footer_head p{
+    word-spacing: 5px;
+    text-align: justify;
+}
+.navigation h4,.Intouch h4{
+    margin-top: 75px !important;
+    margin-left: 31px;
+}
+.navigation_list ul{
+    list-style: none;
+}
+.navigation_list ul li::before{
+    content: "\2022";
+    color: orangered;
+    font-weight: bold;
+    display: inline-block; 
+     width: 1em;
+    margin-left: -1em; 
+}
+.navigation_list ul li{ 
+    color: white;
+    margin-bottom: 5px !important;
+}
+.Intouch ul li{ 
+    color: white;
+    margin-bottom: 10px !important;
+}
